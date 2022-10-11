@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component(
   {
@@ -7,4 +7,7 @@ import { Component } from "@angular/core";
     styleUrls:[ 'property.component.scss']
   }
 )
-export class PropertyCardComponent{}
+export class PropertyCardComponent{
+  @Input() property:any;
+
+}

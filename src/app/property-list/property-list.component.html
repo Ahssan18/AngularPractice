@@ -1,1 +1,5 @@
-<p>property list component is here</p>
+<div class="row">
+  <div *ngFor="let property of properties"class="shadow-lg col-sm-4 p-1">
+<property-card-compoment [property]="property"></property-card-compoment>
+</div>
+</div>
